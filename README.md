@@ -28,7 +28,9 @@
 获取 commits 列表
 ![](./images/commits_list.jpeg)
 
-* [开发手册](./tutorial.md)
+## 事例开发手册
+
+[前往](./tutorial.md)
 
 # License
 
