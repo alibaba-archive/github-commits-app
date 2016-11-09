@@ -20,6 +20,14 @@
 }
 ```
 
+## Gommits(GitHub Commits)效果图
+
+获取 repository 列表
+![](./images/repo_list.jpeg)
+
+获取 commits 列表
+![](./images/commits_list.jpeg)
+
 * [开发手册](./tutorial.md)
 
 # License
