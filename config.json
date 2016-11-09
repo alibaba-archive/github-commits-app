@@ -2,9 +2,9 @@
   "name": "GitHub Commits App For Teambition",
   "host": "http://example.com",
   "git": {
-    "user": "",
-    "token": "",
-    "description": "进入到 GitHub 个人设置页面，生成 token 信息"
+    "client_id": "",
+    "client_secret": "",
+    "description": "进入到 GitHub 个人设置页面，创建应用: https://github.com/settings/applications/new"
   },
   "app": {
     "client_id": "",

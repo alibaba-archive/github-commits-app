@@ -8,9 +8,9 @@
   "name": "GitHub Commits App For Teambition",
   "host": "http://example.com",
   "git": {
-    "user": "",
-    "token": "",
-    "description": "进入到 GitHub 个人设置页面，生成 token 信息"
+    "client_id": "",
+    "client_secret": "",
+    "description": "进入到 GitHub 个人设置页面，创建应用"
   },
   "app": {
     "client_id": "",
@@ -20,19 +20,15 @@
 }
 ```
 
-## 第一步, 配置 GitHub Token
+## 第一步, 创建 GitHub 应用
 
-访问: https://github.com/settings/tokens/new
+访问: https://github.com/settings/applications/new
 
-打开页面后，需要填的信息有两项：
-- Token description: 关于 token 的描述（随意）
-- Token scopes: 针对此应用，选则`repo`即可
-
-生成`token`后, 将`token`保存至配置文件中
+创建成功后，更新配置文件中
 ```
 git: {
-  user: '此为你的 github 登录名称',
-  token: '上面生成的 token'
+  client_id: 'Client ID',
+  client_secret: 'Client Secret'
 }
 ```
 
