@@ -10,6 +10,7 @@
   "git": {
     "client_id": "",
     "client_secret": "",
+    "redirect_uri": "",
     "description": "进入到 GitHub 个人设置页面，创建应用"
   },
   "app": {
@@ -28,7 +29,8 @@
 ```
 git: {
   client_id: 'Client ID',
-  client_secret: 'Client Secret'
+  client_secret: 'Client Secret',
+  redirect_uri: 'Authorization callback URL'
 }
 ```
 
